@@ -1,0 +1,229 @@
+/* Reset */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* Header */
+
+header {
+    font-family: 'Mochiy Pop P One', sans-serif;
+    /* background-color: blue; */
+}
+
+header>h1 {
+    padding: 10px 46px;
+    text-align: center;
+    margin: auto 3px;
+    font-size: 7vw;
+    align-items: center;
+}
+
+
+/* instruction */
+
+.instruction {
+    display: block;
+    height: 30vh;
+    width: 85vw;
+    overflow: scroll;
+    border: 2px solid springgreen;
+    padding: 0px 8px;
+    margin: auto;
+}
+
+.box {
+    padding: 2px;
+    display: inline;
+    width: 93%;
+    height: 194px;
+    overflow: scroll;
+}
+
+.box h3 {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.box ul,
+.box p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    margin-left: 3px;
+    list-style: decimal;
+}
+
+.box>ul>li {
+    margin-left: 17px;
+    margin-top: 10px;
+}
+
+.box p+ul>li {
+    margin-left: 30px;
+    list-style-type: disc;
+}
+
+
+/* MovieNamaPlaceholder */
+
+.MovieNamePlaceholder {
+    margin-top: 16px;
+    margin-bottom: 50px;
+}
+
+.MovieNamePlaceholder>h2 {
+    display: block;
+    padding: 0px 14px;
+    margin: 10px;
+}
+
+#messages {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 5.5vw;
+    display: block;
+    width: 80vw;
+    border: 2px solid #000000;
+    padding: 9px;
+    margin: 10px auto;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #3f51b5;
+    color: white;
+}
+
+#typed {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 5vw;
+    padding: 0px 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+    /* background-color: aqua; */
+}
+
+.dynamicText {
+    margin: auto;
+    font-family: ubuntu;
+    font-size: 5vw;
+    padding: 6px;
+    font-weight: bold;
+    /* background-color: red; */
+}
+
+#lives {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 6vw;
+    padding: 10px 5px;
+    margin-left: 20%;
+}
+
+#gameArea {
+    /* background-color: red; */
+    display: block;
+    height: 5vh;
+    width: 90vw;
+    margin: auto;
+}
+
+#gameArea span {
+    font-family: 'Times New Roman', Times, serif;
+    display: block;
+    font-size: 6vw;
+    width: 87vw;
+    margin: 2px;
+    text-align: center;
+    padding: 5px;
+}
+
+
+/* Keyboard */
+
+.Row {
+    display: flex;
+}
+
+.key {
+    border: 2px solid red;
+    width: 6.5vw;
+    height: 5vh;
+    padding: 2px;
+    margin: 1px;
+    cursor: pointer;
+    font-size: 15px;
+    transition-property: all;
+    transition-duration: 0.5s;
+    padding-left: 3px;
+}
+
+.off {
+    border: 2px solid black;
+    width: 6.5vw;
+    height: 5vh;
+    padding: 2px;
+    margin: 1px;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    transition-property: all;
+    transition-duration: 0.5s;
+    padding-left: 3px;
+}
+
+.firstRow {
+    /* border: 2px solid black; */
+    margin-left: 0px;
+}
+
+.secondRow {
+    /* border: 2px solid black; */
+    margin-left: -4px;
+}
+
+.thirdRow {
+    /* border: 2px solid black; */
+    margin-left: 0;
+    ;
+}
+
+.container {
+    display: flex;
+    height: 15vh;
+    flex-direction: column;
+    /* border: 5px solid purple; */
+    align-items: center;
+    justify-content: end;
+    padding: 10px;
+    margin: 2vh;
+    margin-top: 6vh;
+}
+
+.key:hover,
+.key:focus {
+    background-color: rgb(62, 201, 62);
+    color: white;
+    transform: scale(1.2);
+}
+
+
+/* footer */
+
+footer {
+    display: block;
+    width: 95%;
+    position: fixed;
+    bottom: 0px;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: red;
+    text-decoration: underline;
+}

@@ -1,0 +1,45 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title You Lost! 
+        style 
+            include CSS/afterGame.css
+        script.
+            const url="http://www.omdbapi.com/?i=#{titleID}&apikey=#{Api_KEY}";
+            get_json();
+            
+            async function get_json(){
+                var element = await fetch(url);
+                var json = await element.json();
+                render(json);
+            }
+
+            function render(json){
+                document.getElementById("poster").src=json.Poster;
+                document.getElementById("title").innerHTML="Title: "+json.Title;
+                document.getElementById("director").innerHTML="Director: "+json.Director;
+                document.getElementById("actors").innerHTML="Actors: "+json.Actors;
+                document.getElementById("imdbRating").innerHTML="Imdb Rating: "+json.imdbRating+"/10";
+                document.getElementById("genre").innerHTML="Genre: "+json.Genre;
+                document.getElementById("LinkToImdb").innerHTML=`<a href="https://www.imdb.com/title/`+json.imdbID+`/" target="_blank">Move to IMDB</a>`;   
+            }
+    body
+        header 
+            h1 OH NO! You lost the Game!
+        div(id="container")
+            img(id="poster")
+            div(id="information")
+                span(id="title") 
+                span(id="director")
+                span(id="actors")
+                span(id="imdbRating")
+                span(id="genre")
+                span(id="LinkToImdb")
+                p(id="OMDBApi") &copy OMDB_API
+        div(id="tryAgain")
+            span(id="goBack") 
+                a(href="/") ←Go Back and Try Again
+            p (A virual Cookie is waiting for you.)

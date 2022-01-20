@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyboard</title>
+    <link rel="stylesheet" href="./CSS/Style.css">
+    <link rel="stylesheet" media="screen and (max-width:600px)" href="./CSS/phone.css">
+    <script defer src="./JS/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+
+<body onkeydown="keyboardEvent(event)">
+    <header>
+        <h1>Welcome to Movie Guess Game</h1>
+    </header>
+
+    <div class=" instruction ">
+        <div id="rules " class="box ">
+            <h3>Rules</h3>
+            <ul>
+                <li>You need to Guess the movie by guessing one Alphabet at a time.</li>
+                <li>If you guessed a right alphabet then all the places with that alphabet will be releaved.</li>
+                <li>If you guessed a wrong alphabet you will lose a life.</li>
+                <li>You have total of 9 lives.</li>
+            </ul>
+        </div>
+        <div id="howToPlay " class="box ">
+            <h3>How to Play</h3>
+            <p>You can choose an alphabet by:</p>
+            <ul>
+                <li>Clicking the respective key on Keyboard</li>
+                <li>Clicking the buttons by mouse provided below.</li>
+            </ul>
+        </div>
+        <div id="win " class="box ">
+            <h3>Winning prize</h3>
+            <p>What will you get if you win?</p>
+            <ul>
+                <li>A virtual cookie.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="MovieNamePlaceholder ">
+        <h2>Game Area:</h2>
+        <span id="typed">You Choose the alphabet:&nbsp;</span>
+        <span class="dynamicText">&nbsp;</span>
+        <span id="messages">The Game has started! </span>
+        <span id="lives">Lives Left:</span>
+        <span class="dynamicText">9 / 9</span>
+        <div id="gameArea">
+            <span></span>
+        </div>
+    </div>
+    <div class="container ">
+        <div class="firstRow Row ">
+            <div tabindex=-1 class="key " id="Q" onclick="func(this.id) ">Q</div>
+            <div tabindex=-1 class="key " id="W" onclick="func(this.id) ">W</div>
+            <div tabindex=-1 class="key " id="E" onclick="func(this.id) ">E</div>
+            <div tabindex=-1 class="key " id="R" onclick="func(this.id) ">R</div>
+            <div tabindex=-1 class="key " id="T" onclick="func(this.id) ">T</div>
+            <div tabindex=-1 class="key " id="Y" onclick="func(this.id) ">Y</div>
+            <div tabindex=-1 class="key " id="U" onclick="func(this.id) ">U</div>
+            <div tabindex=-1 class="key " id="I" onclick="func(this.id) ">I</div>
+            <div tabindex=-1 class="key " id="O" onclick="func(this.id) ">O</div>
+            <div tabindex=-1 class="key " id="P" onclick="func(this.id) ">P</div>
+        </div>
+        <div class="secondRow Row ">
+            <div tabindex=-1 class="key " id="A" onclick="func(this.id) ">A</div>
+            <div tabindex=-1 class="key " id="S" onclick="func(this.id) ">S</div>
+            <div tabindex=-1 class="key " id="D" onclick="func(this.id) ">D</div>
+            <div tabindex=-1 class="key " id="F" onclick="func(this.id) ">F</div>
+            <div tabindex=-1 class="key " id="G" onclick="func(this.id) ">G</div>
+            <div tabindex=-1 class="key " id="H" onclick="func(this.id) ">H</div>
+            <div tabindex=-1 class="key " id="J" onclick="func(this.id) ">J</div>
+            <div tabindex=-1 class="key " id="K" onclick="func(this.id) ">K</div>
+            <div tabindex=-1 class="key " id="L" onclick="func(this.id) ">L</div>
+        </div>
+        <div class="thirdRow Row ">
+            <div tabindex=-1 class="key " id="Z" onclick="func(this.id) ">Z</div>
+            <div tabindex=-1 class="key " id="X" onclick="func(this.id) ">X</div>
+            <div tabindex=-1 class="key " id="C" onclick="func(this.id) ">C</div>
+            <div tabindex=-1 class="key " id="V" onclick="func(this.id) ">V</div>
+            <div tabindex=-1 class="key " id="B" onclick="func(this.id) ">B</div>
+            <div tabindex=-1 class="key " id="N" onclick="func(this.id) ">N</div>
+            <div tabindex=-1 class="key " id="M" onclick="func(this.id) ">M</div>
+        </div>
+    </div>
+    <footer>
+        <h3>&copy GuessTheMovie | Developed by <a href="https://github.com/souravjai ">Sourav Jaiswal</a> </h3>
+
+    </footer>
+</body>
+
+</html>

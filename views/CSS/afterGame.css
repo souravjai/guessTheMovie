@@ -1,0 +1,149 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* Header  */
+
+header {
+    display: block;
+    margin: 13px 25%;
+    border: 2px solid blue;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 7%), 0 2px 4px rgb(0 0 0 / 7%), 0 4px 8px rgb(0 0 0 / 7%), 0 8px 16px rgb(0 0 0 / 7%), 0 16px 32px rgb(0 0 0 / 7%), 0 32px 64px rgb(0 0 0 / 7%);
+}
+
+header>h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin: 0px auto;
+    text-shadow: 0 1px 2px rgb(0 0 0 / 7%), 0 2px 4px rgb(0 0 0 / 7%), 0 4px 8px rgb(0 0 0 / 7%), 0 8px 16px rgb(0 0 0 / 7%), 0 16px 32px rgb(0 0 0 / 7%), 0 32px 64px rgb(0 0 0 / 7%);
+    ;
+}
+
+
+/* container */
+
+#container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#poster {
+    height: 450px;
+    border: 5px solid grey;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 7%), 0 2px 4px rgb(0 0 0 / 7%), 0 4px 8px rgb(0 0 0 / 7%), 0 8px 16px rgb(0 0 0 / 7%), 0 16px 32px rgb(0 0 0 / 7%), 0 32px 64px rgb(0 0 0 / 7%);
+}
+
+#information {
+    display: flex;
+    flex-direction: column;
+}
+
+#information>span {
+    margin: 8px 12px;
+    padding: 14px 12px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: #673ab7;
+    color: white;
+    align-items: center;
+}
+
+span#LinkToImdb {
+    /* padding: 0px; */
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    border: none;
+}
+
+#LinkToImdb>a {
+    color: black;
+    background: #ffc107;
+    width: 9vw;
+    display: inline-block;
+    margin: 0px;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 7%), 0 2px 4px rgb(0 0 0 / 7%), 0 4px 8px rgb(0 0 0 / 7%), 0 8px 16px rgb(0 0 0 / 7%), 0 16px 32px rgb(0 0 0 / 7%), 0 32px 64px rgb(0 0 0 / 7%);
+}
+
+#LinkToImdb a:hover {
+    background-color: #fffb07;
+}
+
+#LinkToImdb>a:active {
+    background-color: blue;
+    color: white;
+}
+
+#OMDBApi {
+    background-color: antiquewhite;
+    margin: 8px;
+    text-align: center;
+}
+
+
+/* TryAgain */
+
+#tryAgain {
+    display: block;
+    margin: 15px;
+    text-align: center;
+    padding: 10px;
+}
+
+#goBack {
+    display: inline-block;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 7%), 0 2px 4px rgb(0 0 0 / 7%), 0 4px 8px rgb(0 0 0 / 7%), 0 8px 16px rgb(0 0 0 / 7%), 0 16px 32px rgb(0 0 0 / 7%), 0 32px 64px rgb(0 0 0 / 7%);
+}
+
+#goBack a {
+    padding: 10px;
+    background: black;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#goBack a:hover {
+    background-color: red;
+    ;
+}
+
+#tryAgain p {
+    margin: 10px;
+    display: inline-block;
+}
+
+
+/* Prize */
+
+#prize {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    /* background-color: red; */
+}
+
+#prize p {
+    font-size: 30px;
+    margin: 10px;
+}
+
+#prize img {
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 7%), 0 2px 4px rgb(0 0 0 / 7%), 0 4px 8px rgb(0 0 0 / 7%), 0 8px 16px rgb(0 0 0 / 7%), 0 16px 32px rgb(0 0 0 / 7%), 0 32px 64px rgb(0 0 0 / 7%);
+}
