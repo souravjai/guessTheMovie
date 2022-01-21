@@ -6,27 +6,14 @@ Pulp Fiction*tt0110912
 Inception*tt1375666
 Fight Club*tt0137523
 Forrest Gump*tt0109830
-Spider-Man: No Way Home*tt10872600
 The Matrix*tt0133093
-Goodfellas*tt0099685
 Parasite*tt6751668
 Interstellar*tt0816692
 The Prestige*tt0482571
-The Departed*tt0407887
 The Usual Suspects*tt0114814
 The Lion King*tt0110357
 Terminator*tt0103064
-Grave of the Fireflies*tt0095327
-Back to the Future*tt0088763
-Psycho*tt0054215
 Joker*tt7286456
-Your Name.*tt5311514
-Dangal*tt5074352
-Spider-Man: Into the Spider-Verse*tt4633694
-Avengers: Endgame*tt4154796
-Avengers: Infinity War*tt4154756
-Coco*tt2380307
-Django Unchained*tt1853728
 The Dark Knight Rises*tt1345836
 3 Idiots*tt1187043
 Taarien zameen par*tt0986264
@@ -34,12 +21,73 @@ WALL·E*tt0910970
 Memento*tt0209144
 The Shining*tt0081505
 Alien*tt0078748
-Eternal Sunshine of the Spotless Mind*tt0338013
 Toy Story*tt0114709
 Aliens*tt0090605
 Andhadhun*tt8108198
-Gangs of Wasseypur*tt1954470
 Shutter Island*tt1130884
 The Wolf of Wall Street*tt0993846
-Toy Story 3*tt0435761
 Batman Begins*tt0372784
+Eternals*tt9032400
+Shang-Chi : Legend of the Ten Rings*tt9376612
+Black Widow*tt3480822
+Avengers: Infinity War*tt4154756
+Captain Marvel*tt4154664
+Doctor Strange*tt1211837
+Thor: Ragnarok*tt3501632
+Iron Man*tt0371746
+The Avengers*tt0848228
+Black Panther*tt1825683
+Thor*tt0800369
+Ant-Man*tt0478970
+Black Panther*tt9114286
+Captain America: The Winter Soldier*tt1843866
+She-Hulk*tt10857160
+Iron Man 2*tt1228705
+The Incredible Hulk*tt0800080
+Thor: The Dark World*tt1981115
+Ant-Man and the Wasp*tt5095030
+Blade*tt10671440
+Guardians of the Galaxy Vol. 3*tt6791350
+Gangs of Wasseypur*tt1954470
+Swades*tt0367110
+OMG: Oh My God!*tt2283748
+Rang De Basanti*tt0405508
+Pink*tt5571734
+Chak De! India*tt0871510
+Andaz Apna Apna*tt0109117
+Drishyam*tt4430212
+Dangal*tt5074352
+A Wednesday*tt1280558
+Dil Chahta Hai*tt0292490
+PK*tt2338151
+Kahaani*tt1821480
+Barfi!*tt2082197
+Zindagi Na Milegi Dobara*tt1562872
+Munna Bhai M.B.B.S.*tt0374887
+Queen*tt3322420
+Jab We Met*tt1093370
+Neerja*tt5286444
+Jo Jeeta Wohi Sikandar*tt0104561
+Airlift*tt4387040
+Sholay*tt0073707
+Special 26*tt2377938
+Bhaag Milkha Bhaag*tt2356180
+Stanley Ka Dabba*tt1907761
+Hera Pheri*tt0242519
+Masaan*tt4635372
+Pyaar Ka Punchnama*tt1926313
+Wake Up Sid*tt1324059
+English Vinglish*tt2181931
+The Lunchbox*tt2350496
+M.S. Dhoni: The Untold Story*tt4169250
+Baahubali: The Beginning*tt2631186
+Udta Punjab*tt4434004
+Kai Po Che*tt2213054
+Rockstar*tt1839596
+Delhi Belly*tt1934231
+Kal Ho Naa Ho*tt0347304
+Highway*tt2980794
+Devdas*tt0238936
+Rocket Singh: Salesman of the Year*tt1434447
+Lagaan: Once Upon a Time in India*tt0169102
+Baby*tt3848892
