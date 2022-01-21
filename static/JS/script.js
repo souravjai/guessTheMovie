@@ -95,8 +95,8 @@ async function func(id_name) {
     const json = await response.json();
 
 
-    render_message(json.character, json.correct);
     render_movie(json);
+    render_message(json.character, json.correct);
     if (json.win)
         game_won();
 
