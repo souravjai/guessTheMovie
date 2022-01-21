@@ -75,7 +75,7 @@ app.get("/depleteLive", (req, res) => {
         life = --lives;
 
     data = {
-        life: life;
+        life: life
     };
     res.json(data);
 })
