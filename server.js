@@ -70,6 +70,10 @@ app.post("/api", (req, res) => {
 })
 
 app.get("/depleteLive", (req, res) => {
+    var life = 0;
+    if (lives > 0)
+        life = --lives;
+
     data = {
         life: --lives
     };
