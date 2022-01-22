@@ -65,13 +65,9 @@ app.get("/start", (req, res) => {
 //API
 app.post("/api", (req, res) => {
     var data = map.get(req.body.id)
-
     data = fill_characters(req.body.character, data);
     flag = data.flag;
-
     data = won(data.json);
-
-    `   `
     map.set(req.body.id, data);
     const ret = {
         movie_placeholder: data.movie_placeholder,

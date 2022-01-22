@@ -1,0 +1,25 @@
+* {}
+
+header {
+    margin: 13px 8%;
+}
+
+#container {
+    flex-direction: column;
+}
+
+#LinkToImdb>a {
+    width: 35%;
+}
+
+#goBack a {
+    display: block;
+}
+
+#poster {
+    height: 50vh;
+}
+
+#tryAgain p {
+    width: 100%;
+}
