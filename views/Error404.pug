@@ -8,8 +8,17 @@ html(lang="en")
         style 
             |.container{  text-align:center;margin: auto;border:2px solid red;border-radius:20px;}
             |.container img{height:400px; margin:10px; padding:20px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+            |#tryAgain {display: block;margin: 15px;text-align: center;padding: 10px;}
+            |#goBack {display: inline-block;box-shadow: 0 1px 2px rgb(0 0 0 / 7%), 0 2px 4px rgb(0 0 0 / 7%), 0 4px 8px rgb(0 0 0 / 7%), 0 8px 16px rgb(0 0 0 / 7%), 0 16px 32px rgb(0 0 0 / 7%), 0 32px 64px rgb(0 0 0 / 7%);}
+            |#goBack a {padding: 10px;background: black;color: white;border-radius: 20px;text-decoration: none;}
+            |#goBack a:hover {background-color: red;}
+            |#tryAgain p {margin: 10px;display: inline-block;   }
+
     body 
         div(class="container")
+            h1 Error 404!
             h1 Yeh kahan aagye tum?
-            h1 Answer Dhund rhe the kya?
-            img(src="./img/mnb.jpg")
+            div(id="tryAgain")
+            span(id="goBack") 
+                a(href="/") ←Play Again
+            p (A virual Cookie is waiting for you.)
