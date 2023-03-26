@@ -1,8 +1,5 @@
 {
-    "builds": [
-      { "src": "server.js", "use": "@vercel/node" }
-    ],
     "routes": [
-      { "handle": "server", "src": "/.*" }
+      { "src": "/.*", "dest": "/server.js" }
     ]
   }
