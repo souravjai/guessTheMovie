@@ -1,5 +1,5 @@
 # Guess The Movie
-The Site is hosted at <a href="https://jai-movie-guess.herokuapp.com/">Heroku</a>.
+The Site is hosted at <a href="https://guess-the-movie-souravjai.vercel.app/">Vercel</a>.
 
 ***
 ## Key Features
