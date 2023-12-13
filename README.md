@@ -1,5 +1,5 @@
 # Guess The Movie
-The Site is hosted at <a href="https://guess-the-movie-souravjai.vercel.app/">Vercel</a>.
+The Site is hosted at <a href="https://movieguessgame.onrender.com/">Render</a>.
 
 ***
 ## Key Features
